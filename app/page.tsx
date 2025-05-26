@@ -2,9 +2,9 @@
 'use client';
 
 import { useState } from "react"
-import { Input } from "@/components/ui/input"
-import { Card, CardContent } from "@/components/ui/card"
-import { Label } from "@/components/ui/label"
+import { Input } from "../components/ui/input"
+import { Card, CardContent } from "../components/ui/card"
+import { Label } from "../components/ui/label"
 
 export default function SupplementCalculator() {
   const [weight, setWeight] = useState(70)
